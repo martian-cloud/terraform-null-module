@@ -1,5 +1,10 @@
 # Terraform Null Module, main.tf
 
-resource "null_resource" "lone-null-resource" {}
+resource "null_resource" "lone" {
+  triggers = {
+    resource_id = var.trigger_id
+
+  }
+}
 
 # The End.
