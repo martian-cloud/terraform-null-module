@@ -5,5 +5,3 @@ variable "trigger_id" {
   type        = string
   default     = "default-ID"
 }
-
-# The End.
