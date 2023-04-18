@@ -2,6 +2,6 @@
 
 resource "null_resource" "lone" {
   triggers = {
-    resource_id = var.trigger_id
+    resource_name = var.trigger_name
   }
 }
